@@ -17,7 +17,7 @@ int main()
     
     int soma = valor1 + valor2;
     int subtr = valor1 - valor2;
-    int divis = valor1 / valor2;
+    float divis = (valor1 / valor2);
     int multp = valor1 * valor2;
     
     if(operacao == 1) {
@@ -25,7 +25,7 @@ int main()
     } else if (operacao == 2) {
         printf("%d", subtr);
     } else if (operacao == 3) {
-        printf("%d", divis);
+        printf("%.2f", divis);
     } else if (operacao == 4) {
         printf("%d", multp);
     } else {
